@@ -1,42 +1,1346 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.desktop {
+  background-color: #eff5e1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #eff5e1;
+  height: 9490px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.desktop .skincare {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 30px;
+  font-weight: 800;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  white-space: nowrap;
+}
+
+.desktop .overlap {
+  height: 685px;
+  left: -18px;
+  position: absolute;
+  top: 571px;
+  width: 1955px;
+}
+
+.desktop .overlap-group {
+  height: 685px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1955px;
+}
+
+.desktop .text-wrapper {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 378px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 410px;
+  white-space: nowrap;
+}
+
+.desktop .chatgpt-image-jun {
+  height: 676px;
+  left: 673px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 610px;
+}
+
+.desktop .rectangle {
+  background-color: #eff5e1;
+  border-radius: 200px;
+  height: 100px;
+  left: 740px;
+  position: absolute;
+  top: 546px;
+  width: 476px;
+}
+
+.desktop .p {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 872px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 576px;
+  width: 304px;
+}
+
+.desktop .rectangle-2 {
+  background-color: #eff5e1;
+  border: 1px dashed;
+  border-color: #2d3b36;
+  border-radius: 50px;
+  height: 90px;
+  left: 745px;
+  position: absolute;
+  top: 551px;
+  width: 90px;
+}
+
+.desktop .skin-care-beauty {
+  height: 80px;
+  left: 750px;
+  object-fit: cover;
+  position: absolute;
+  top: 556px;
+  width: 80px;
+}
+
+.desktop .div-wrapper {
+  background-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 118px;
+  position: absolute;
+  top: 243px;
+  width: 180px;
+}
+
+.desktop .text-wrapper-2 {
+  color: #eff5e1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+}
+
+.desktop .glow-natur-ally {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 100px;
+  font-weight: 700;
+  left: 761px;
+  letter-spacing: -3.00px;
+  line-height: 90px;
+  position: absolute;
+  top: 217px;
+  width: 398px;
+}
+
+.desktop .all-products {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 717px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+  white-space: nowrap;
+}
+
+.desktop .serum {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 881px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+  white-space: nowrap;
+}
+
+.desktop .sunscreen {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 992px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1142px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+  white-space: nowrap;
+}
+
+.desktop .cart {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1645px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+  white-space: nowrap;
+}
+
+.desktop .span {
+  color: #2d3b36;
+  letter-spacing: -0.20px;
+}
+
+.desktop .bag-svgrepo-com-wrapper {
+  background-color: #f8fee5;
+  border-radius: 20px;
+  height: 40px;
+  left: 1595px;
+  position: absolute;
+  top: 40px;
+  width: 40px;
+}
+
+.desktop .img {
+  height: 20px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 20px;
+}
+
+.desktop .heart-svgrepo-com-wrapper {
+  background-color: #f8fee5;
+  border-radius: 20px;
+  height: 40px;
+  left: 1730px;
+  position: absolute;
+  top: 40px;
+  width: 40px;
+}
+
+.desktop .group-wrapper {
+  background-color: #f8fee5;
+  border-radius: 20px;
+  height: 40px;
+  left: 1780px;
+  position: absolute;
+  top: 40px;
+  width: 40px;
+}
+
+.desktop .group {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/user.svg);
+  background-size: 100% 100%;
+  height: 20px;
+  left: 10px;
+  position: relative;
+  top: 10px;
+  width: 20px;
+}
+
+.desktop .text-wrapper-4 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 300px;
+  width: 335px;
+}
+
+.desktop .skin-care-beauty-2 {
+  height: 220px;
+  left: 1597px;
+  object-fit: cover;
+  position: absolute;
+  top: 234px;
+  width: 223px;
+}
+
+.desktop .overlap-group-2 {
+  background-color: #fefff4;
+  height: 7303px;
+  left: 0;
+  position: absolute;
+  top: 1257px;
+  width: 1920px;
+}
+
+.desktop .experience-the {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 53px;
+  font-weight: 400;
+  left: 102px;
+  letter-spacing: -1.86px;
+  line-height: 78px;
+  position: absolute;
+  top: 99px;
+}
+
+.desktop .text-wrapper-5 {
+  color: #2d3b36;
+  letter-spacing: -0.98px;
+}
+
+.desktop .text-wrapper-6 {
+  color: #2d3b364c;
+  letter-spacing: -0.98px;
+}
+
+.desktop .overlap-2 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 100px;
+  position: absolute;
+  top: 907px;
+  width: 260px;
+}
+
+.desktop .text-wrapper-7 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+}
+
+.desktop .ellipse {
+  background-color: #2d3b36;
+  border-radius: 10px;
+  height: 20px;
+  left: 18px;
+  position: absolute;
+  top: 19px;
+  width: 20px;
+}
+
+.desktop .overlap-3 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 1100px;
+  position: absolute;
+  top: 6253px;
+  width: 341px;
+}
+
+.desktop .text-wrapper-8 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+}
+
+.desktop .overlap-4 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 5px;
+  height: 70px;
+  left: 1100px;
+  position: absolute;
+  top: 6703px;
+  width: 600px;
+}
+
+.desktop .text-wrapper-9 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+  white-space: nowrap;
+}
+
+.desktop .plus-large-svgrepo {
+  height: 30px;
+  left: 539px;
+  position: absolute;
+  top: 19px;
+  width: 30px;
+}
+
+.desktop .overlap-5 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 5px;
+  height: 70px;
+  left: 1100px;
+  position: absolute;
+  top: 6919px;
+  width: 600px;
+}
+
+.desktop .overlap-6 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 5px;
+  height: 70px;
+  left: 1100px;
+  position: absolute;
+  top: 6999px;
+  width: 600px;
+}
+
+.desktop .overlap-7 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 5px;
+  height: 70px;
+  left: 1100px;
+  position: absolute;
+  top: 7079px;
+  width: 600px;
+}
+
+.desktop .overlap-8 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 5px;
+  height: 126px;
+  left: 1100px;
+  position: absolute;
+  top: 6783px;
+  width: 600px;
+}
+
+.desktop .absolutely-all-our {
+  color: #525349;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: -0.70px;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+}
+
+.desktop .overlap-9 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 100px;
+  position: absolute;
+  top: 2261px;
+  width: 290px;
+}
+
+.desktop .ellipse-2 {
+  background-color: #2d3b36;
+  border-radius: 10px;
+  height: 20px;
+  left: 19px;
+  position: absolute;
+  top: 19px;
+  width: 20px;
+}
+
+.desktop .overlap-10 {
+  background-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 547px;
+  position: absolute;
+  top: 5053px;
+  width: 194px;
+}
+
+.desktop .text-wrapper-10 {
+  color: #fefff4;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+}
+
+.desktop .overlap-11 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 761px;
+  position: absolute;
+  top: 5053px;
+  width: 175px;
+}
+
+.desktop .text-wrapper-11 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+}
+
+.desktop .overlap-12 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 956px;
+  position: absolute;
+  top: 5053px;
+  width: 205px;
+}
+
+.desktop .overlap-13 {
+  background-color: #fefff4;
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 100px;
+  height: 60px;
+  left: 1181px;
+  position: absolute;
+  top: 5053px;
+  width: 192px;
+}
+
+.desktop .YOUR-SKIN-DESERVES {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  top: 1066px;
+}
+
+.desktop .skincare-that-brings {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 640px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
   text-align: center;
+  top: 2232px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.desktop .feel-beautiful {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 590px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4865px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.desktop .answers-to-your {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 1100px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  top: 6412px;
 }
 
-.card {
-  padding: 2em;
+.desktop .text-wrapper-12 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgba(41, 51, 48, 1) 0%,
+    rgba(254, 255, 244, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  text-fill-color: transparent;
+  top: 1394px;
+  white-space: nowrap;
 }
 
-.read-the-docs {
-  color: #888;
+.desktop .text-wrapper-13 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgba(41, 51, 48, 1) 0%,
+    rgba(254, 255, 244, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  text-fill-color: transparent;
+  top: 1625px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-14 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgba(41, 51, 48, 1) 0%,
+    rgba(254, 255, 244, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  text-fill-color: transparent;
+  top: 1856px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-15 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 213px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  top: 1394px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-16 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 213px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  top: 1625px;
+  white-space: nowrap;
+}
+
+.desktop .since {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 971px;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  position: absolute;
+  top: 2017px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-17 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1695px;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  position: absolute;
+  top: 2017px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-18 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 213px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  top: 1856px;
+  white-space: nowrap;
+}
+
+.desktop .discover-a-curated {
+  color: #525349;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: -0.36px;
+  line-height: 24px;
+  position: absolute;
+  top: 1233px;
+}
+
+.desktop .get-naturally {
+  color: #525349;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 213px;
+  letter-spacing: -0.36px;
+  line-height: 24px;
+  position: absolute;
+  top: 1488px;
+}
+
+.desktop .pure-ingredients-for {
+  color: #525349;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 213px;
+  letter-spacing: -0.36px;
+  line-height: 24px;
+  position: absolute;
+  top: 1719px;
+}
+
+.desktop .made-with-love-and {
+  color: #525349;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 213px;
+  letter-spacing: -0.36px;
+  line-height: 24px;
+  position: absolute;
+  top: 1950px;
+}
+
+.desktop .overlap-14 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/chatgpt-image-jun-15--2025--11-52-20-pm-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1081px;
+  left: 971px;
+  position: absolute;
+  top: 907px;
+  width: 849px;
+}
+
+.desktop .rectangle-3 {
+  background-color: #eff5e1;
+  border-radius: 200px;
+  height: 100px;
+  left: 224px;
+  position: absolute;
+  top: 900px;
+  width: 400px;
+}
+
+.desktop .rectangle-4 {
+  background-color: #2d3b36;
+  border-radius: 200px;
+  height: 80px;
+  left: 234px;
+  position: absolute;
+  top: 910px;
+  width: 80px;
+}
+
+.desktop .best-skin-care {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 355px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 929px;
+  width: 219px;
+}
+
+.desktop .rectangle-5 {
+  border: 1px dashed;
+  border-color: #2d3b36;
+  border-radius: 50px;
+  height: 90px;
+  left: 229px;
+  position: absolute;
+  top: 905px;
+  width: 90px;
+}
+
+.desktop .award-svgrepo-com {
+  height: 50px;
+  left: 249px;
+  position: absolute;
+  top: 925px;
+  width: 50px;
+}
+
+.desktop .overlap-15 {
+  height: 80px;
+  left: 1739px;
+  position: absolute;
+  top: 2252px;
+  width: 81px;
+}
+
+.desktop .ellipse-3 {
+  background-color: #2d3b36;
+  border-radius: 40px;
+  height: 80px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.desktop .arrow {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 33px;
+  width: 42px;
+}
+
+.desktop .arrow-wrapper {
+  border: 1px solid;
+  border-color: #2d3b36;
+  border-radius: 40px;
+  height: 80px;
+  left: 1580px;
+  position: absolute;
+  top: 2252px;
+  width: 80px;
+}
+
+.desktop .arrow-2 {
+  height: 15px;
+  left: 38px;
+  position: absolute;
+  top: 32px;
+  width: 41px;
+}
+
+.desktop .overlap-16 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/mask-group.png);
+  background-size: 100% 100%;
+  height: 770px;
+  left: 100px;
+  position: absolute;
+  top: 2450px;
+  width: 560px;
+}
+
+.desktop .rectangle-6 {
+  background-color: #fefff4;
+  border-radius: 10px;
+  height: 100px;
+  left: 20px;
+  position: absolute;
+  top: 650px;
+  width: 520px;
+}
+
+.desktop .rectangle-7 {
+  background-color: #2d3b361a;
+  border-radius: 10px;
+  height: 80px;
+  left: 450px;
+  position: absolute;
+  top: 660px;
+  width: 80px;
+}
+
+.desktop .text-wrapper-19 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 669px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-20 {
+  color: #2d3b3680;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: -0.80px;
+  line-height: normal;
+  position: absolute;
+  top: 717px;
+  white-space: nowrap;
+}
+
+.desktop .cart-large-svgrepo {
+  height: 30px;
+  left: 475px;
+  position: absolute;
+  top: 685px;
+  width: 30px;
+}
+
+.desktop .overlap-17 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/mask-group-1.png);
+  background-size: 100% 100%;
+  height: 770px;
+  left: 100px;
+  position: absolute;
+  top: 5183px;
+  width: 560px;
+}
+
+.desktop .overlap-18 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/mask-group-2.png);
+  background-size: 100% 100%;
+  height: 770px;
+  left: 685px;
+  position: absolute;
+  top: 2450px;
+  width: 560px;
+}
+
+.desktop .text-wrapper-21 {
+  color: #2d3b3680;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: -0.70px;
+  line-height: normal;
+  position: absolute;
+  top: 719px;
+  white-space: nowrap;
+}
+
+.desktop .overlap-19 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/mask-group-3.png);
+  background-size: 100% 100%;
+  height: 770px;
+  left: 685px;
+  position: absolute;
+  top: 5183px;
+  width: 560px;
+}
+
+.desktop .rectangle-8 {
+  background-color: #2d3b36;
+  border-radius: 10px;
+  height: 80px;
+  left: 450px;
+  position: absolute;
+  top: 660px;
+  width: 80px;
+}
+
+.desktop .overlap-20 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/mask-group-4.png);
+  background-size: 100% 100%;
+  height: 770px;
+  left: 1270px;
+  position: absolute;
+  top: 2450px;
+  width: 550px;
+}
+
+.desktop .rectangle-9 {
+  background-color: #fefff4;
+  border-radius: 10px;
+  height: 100px;
+  left: 20px;
+  position: absolute;
+  top: 650px;
+  width: 510px;
+}
+
+.desktop .rectangle-10 {
+  background-color: #2d3b361a;
+  border-radius: 10px;
+  height: 80px;
+  left: 440px;
+  position: absolute;
+  top: 660px;
+  width: 80px;
+}
+
+.desktop .cart-large-svgrepo-2 {
+  height: 30px;
+  left: 465px;
+  position: absolute;
+  top: 685px;
+  width: 30px;
+}
+
+.desktop .overlap-21 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/mask-group-5.png);
+  background-size: 100% 100%;
+  height: 770px;
+  left: 1270px;
+  position: absolute;
+  top: 5183px;
+  width: 550px;
+}
+
+.desktop .overlap-22 {
+  height: 1146px;
+  left: 100px;
+  position: absolute;
+  top: 3520px;
+  width: 1720px;
+}
+
+.desktop .model {
+  height: 1146px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1719px;
+}
+
+.desktop .rectangle-11 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(41, 51, 48, 1) 100%
+  );
+  border-radius: 30px;
+  height: 400px;
+  left: 0;
+  position: absolute;
+  top: 746px;
+  width: 1720px;
+}
+
+.desktop .feel-beautiful-2 {
+  color: #fefff4;
+  font-family: "Inter", Helvetica;
+  font-size: 80px;
+  font-weight: 400;
+  left: 341px;
+  letter-spacing: -1.60px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 795px;
+}
+
+.desktop .rectangle-12 {
+  background-color: #fefff4;
+  border-radius: 100px;
+  height: 60px;
+  left: 770px;
+  position: absolute;
+  top: 1016px;
+  width: 180px;
+}
+
+.desktop .text-wrapper-22 {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 811px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1037px;
+  white-space: nowrap;
+}
+
+.desktop .overlap-23 {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/mask-group-6.png);
+  background-size: 100% 100%;
+  height: 900px;
+  left: 100px;
+  position: absolute;
+  top: 6253px;
+  width: 850px;
+}
+
+.desktop .rectangle-13 {
+  background-color: #eff5e1;
+  border-radius: 200px;
+  height: 100px;
+  left: 225px;
+  position: absolute;
+  top: 761px;
+  width: 306px;
+}
+
+.desktop .rectangle-14 {
+  background-color: #2d3b36;
+  border-radius: 200px;
+  height: 80px;
+  left: 235px;
+  position: absolute;
+  top: 771px;
+  width: 80px;
+}
+
+.desktop .element-we-re-here-to {
+  color: #2d3b36;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 349px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 790px;
+  width: 152px;
+}
+
+.desktop .rectangle-15 {
+  border: 1px dashed;
+  border-color: #2d3b36;
+  border-radius: 50px;
+  height: 90px;
+  left: 230px;
+  position: absolute;
+  top: 766px;
+  width: 90px;
+}
+
+.desktop .headphone-svgrepo {
+  background-image: url(https://c.animaapp.com/mc0mz2atxfK9TR/img/headphone-fill.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 255px;
+  position: absolute;
+  top: 791px;
+  width: 40px;
+}
+
+.desktop .overlap-24 {
+  height: 1006px;
+  left: -115px;
+  position: absolute;
+  top: 8560px;
+  width: 2149px;
+}
+
+.desktop .rectangle-16 {
+  background-color: #2d3b36;
+  height: 930px;
+  left: 115px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.desktop .join-the-skincare {
+  color: #e7e8e0;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 215px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  top: 199px;
+}
+
+.desktop .text-wrapper-23 {
+  color: #e7e8e0;
+  font-family: "Inter", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 1351px;
+  letter-spacing: -1.20px;
+  line-height: normal;
+  position: absolute;
+  top: 257px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-24 {
+  color: #e7e8e0;
+  font-family: "Inter", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 1351px;
+  letter-spacing: -0.60px;
+  line-height: normal;
+  position: absolute;
+  top: 215px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-25 {
+  color: #eff5e1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 215px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 586px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-26 {
+  color: #eff5e1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1345px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 586px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-27 {
+  color: #eff5e1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 401px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 586px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-28 {
+  color: #eff5e1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1590px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 586px;
+  white-space: nowrap;
+}
+
+.desktop .you-tube {
+  color: #eff5e1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 588px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  top: 586px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-29 {
+  color: #eff5e1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1809px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 586px;
+  white-space: nowrap;
+}
+
+.desktop .skincare-2 {
+  color: #3d4b4680;
+  font-family: "Inter", Helvetica;
+  font-size: 420px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 701px;
+  white-space: nowrap;
 }
