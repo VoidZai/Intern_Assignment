@@ -1,7 +1,14 @@
 import './index.css';
 
+import Navbar from './components/Navbar';
+
 function App() {
-  return <h1>Hello Dev Task</h1>;
+  return (
+    <>
+      <Navbar/>
+    </>
+
+  )
 }
 
 export default App;
