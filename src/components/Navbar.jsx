@@ -3,18 +3,47 @@ import '../styles/navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-        <div className="logo">
-            SKINCARE
+<div className="nav-bar">
+      <img
+        className="logo-2"
+        alt="Logo"
+        src="https://c.animaapp.com/mc8ufun6NECYwc/img/logo-2.svg"
+      />
+
+      <div className="menu">
+        <div className="link-6">
+          <div className="link-7">Platform</div>
         </div>
-        <ul className="nav-links">
-            <li>All Products</li>
-            <li>Serum</li>
-            <li>Sunscreen</li>
-            <li>Bundle</li>
-            <li>Cart</li>
-        </ul>
-    </nav>
+
+        <div className="link-6">
+          <div className="link-7">Solutions</div>
+        </div>
+
+        <div className="link-6">
+          <div className="link-7">Developers</div>
+        </div>
+
+        <div className="link-6">
+          <div className="link-7">Resources</div>
+        </div>
+
+        <div className="link-6">
+          <div className="link-7">Pricing</div>
+        </div>
+      </div>
+
+      <div className="actions">
+        <div className="link-8">
+          <div className="link-9">Log in</div>
+        </div>
+
+        <button className="button-2">
+          <div className="highlight-2" />
+
+          <div className="text-3">Schedule a demo</div>
+        </button>
+      </div>
+    </div>
   )
 }
 
