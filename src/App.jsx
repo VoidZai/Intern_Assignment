@@ -11,6 +11,7 @@ import { PreFooter } from "./sections/PreFooter";
 import { TitleBlock } from "./sections/TitleBlock"; */
 import "./index.css";
 import NavBar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 export const App = () => {
   return (
@@ -18,7 +19,7 @@ export const App = () => {
       <div className="div-6">
         {/* <Footer /> */}
         <div className="overlap-6">
-          {/* <HeroForm /> */}
+          {<Hero />}
           <NavBar />
         </div>
 

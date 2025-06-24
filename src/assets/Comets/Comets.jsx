@@ -233,3 +233,5 @@ export const Comets = ({ className }) => {
     </svg>
   );
 };
+
+export default Comets
