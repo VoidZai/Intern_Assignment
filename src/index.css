@@ -1,4 +1,17 @@
 /* src/index.css */
+:root {
+  --grayscaledark-12: #ffffff;        /* text color */
+  --branddark-09: #6c5ce7;            /* button background */
+  --brand-06: #a29bfe;                /* blurred highlight */
+
+  --sm-regular-font-family: 'Inter', sans-serif;
+  --sm-regular-font-size: 14px;
+  --sm-regular-font-style: normal;
+  --sm-regular-font-weight: 500;
+  --sm-regular-letter-spacing: 0px;
+  --sm-regular-line-height: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;

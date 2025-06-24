@@ -91,6 +91,12 @@
   position: relative;
 }
 
+.button-2:hover {
+  background-color: #7a6ded;
+  cursor: pointer;
+}
+
+
 .nav-bar .highlight-2 {
   background-color: var(--brand-06);
   border-radius: 16px;
