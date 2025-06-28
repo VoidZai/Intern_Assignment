@@ -1,0 +1,68 @@
+.title-block {
+  padding: 100px 64px 64px 64px; /* Top:100px, Right:64px, Bottom:64px, Left:64px */
+  background-color: #0A0914;
+  text-align: left;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: fit-content; /* Hug content height */
+}
+
+.title-block-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* 10px gap between elements */
+}
+
+.title-block-preheading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6852D6;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0; /* Reset margin to use gap instead */
+}
+
+.title-block-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FAFAFF;
+  line-height: 1.2;
+  margin: 0; /* Reset margin to use gap instead */
+  background: linear-gradient(90deg, #FAFAFF 0%, #D6D4FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Responsive styles - adjusting padding for smaller screens */
+@media (max-width: 1024px) {
+  .title-block {
+    padding: 80px 48px 48px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-block {
+    padding: 60px 32px 32px 32px;
+  }
+  
+  .title-block-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-block {
+    padding: 40px 24px 24px 24px;
+  }
+  
+  .title-block-heading {
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+  
+  .title-block-preheading {
+    font-size: 0.875rem;
+  }
+}

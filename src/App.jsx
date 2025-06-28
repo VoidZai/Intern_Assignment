@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/navbar/NavBar'
 import Hero from './components/hero/Hero'
 import Marquee from './components/marquee/Coustomers'
+import TitleBlock1 from './components/titleblocks/TitleBlock1'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Marquee/>
+        <TitleBlock1/>
       </main>
       <footer>Footer</footer>
     </div>
