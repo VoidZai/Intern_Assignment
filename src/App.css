@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* We'll add more styles as we build each section */
