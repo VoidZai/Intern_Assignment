@@ -1,6 +1,7 @@
 import './App.css'
-import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/NavBar'
+import Hero from './components/hero/Hero'
+import Marquee from './components/marquee/Coustomers'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header><Navbar/></header>
       <main>
         <Hero />
+        <Marquee/>
       </main>
       <footer>Footer</footer>
     </div>
