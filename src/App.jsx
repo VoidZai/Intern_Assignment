@@ -5,6 +5,7 @@ import Marquee from './components/marquee/Coustomers'
 import TitleBlock1 from './components/titleblocks/TitleBlock1'
 import ListSection1 from './components/listsections/ListSection1'
 import TitleBlock2 from './components/titleblocks/TitleBlock2'
+import ListSection2 from './components/listsections/ListSection2'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <TitleBlock1/>
         <ListSection1/>
         <TitleBlock2/>
+        <ListSection2/>
       </main>
       <footer>Footer</footer>
     </div>
