@@ -1,0 +1,160 @@
+.pre-footer {
+  padding: 120px 64px;
+  background: radial-gradient(ellipse at center, #1a0b4e 0%, #0a0914 100%);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.pre-footer-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pre-footer-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FAFAFF;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  background: linear-gradient(90deg, #FAFAFF 0%, #D6D4FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pre-footer-text {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.pre-footer-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pre-footer-button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pre-footer-button.primary {
+  background: linear-gradient(90deg, #6852D6 0%, #45368D 100%);
+  color: white;
+  border: none;
+}
+
+.pre-footer-button.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(104, 82, 214, 0.4);
+}
+
+.pre-footer-button.secondary {
+  background: transparent;
+  color: #FAFAFF;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.pre-footer-button.secondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Background elements */
+.bg-planet {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.planet-1 {
+  top: 20%;
+  left: 10%;
+  width: 120px;
+  animation: float 12s ease-in-out infinite;
+}
+
+.planet-2 {
+  bottom: 15%;
+  right: 10%;
+  width: 80px;
+  animation: float 8s ease-in-out infinite reverse;
+}
+
+.bg-comet {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 150px;
+  opacity: 0.4;
+  animation: comet-move 20s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(5deg); }
+}
+
+@keyframes comet-move {
+  0% { transform: translateX(0) translateY(0); opacity: 0; }
+  10% { opacity: 0.4; }
+  90% { opacity: 0.4; }
+  100% { transform: translateX(-100vw) translateY(100px); opacity: 0; }
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .pre-footer {
+    padding: 100px 48px;
+  }
+  
+  .bg-planet,
+  .bg-comet {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .pre-footer {
+    padding: 80px 32px;
+  }
+  
+  .pre-footer-title {
+    font-size: 2.5rem;
+  }
+  
+  .pre-footer-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pre-footer {
+    padding: 60px 24px;
+  }
+  
+  .pre-footer-title {
+    font-size: 2rem;
+  }
+  
+  .pre-footer-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .pre-footer-button {
+    width: 100%;
+  }
+}

@@ -7,6 +7,8 @@ import ListSection1 from './components/listsections/ListSection1'
 import TitleBlock2 from './components/titleblocks/TitleBlock2'
 import ListSection2 from './components/listsections/ListSection2'
 import FAQ from './components/faq/FaqSection'
+import PreFooter from './components/footer/prefooter/PreFooter'
+import Footer from './components/footer/Footer/Footer'
 
 function App() {
   return (
@@ -20,8 +22,9 @@ function App() {
         <TitleBlock2/>
         <ListSection2/>
         <FAQ/>
+        <PreFooter/>
       </main>
-      <footer>Footer</footer>
+      <footer>  <Footer/>    </footer>
     </div>
   )
 }
